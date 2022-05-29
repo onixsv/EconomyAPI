@@ -1,0 +1,22 @@
+name: EconomyAPI
+main: onebone\economyapi\EconomyAPI
+version: 4.0.0
+author: onebone
+api: 4.0.0
+permissions:
+  economyapi.command.setmoney:
+    default: op
+  economyapi.command.mymoney:
+    default: true
+  economyapi.command.givemoney:
+    default: op
+  economyapi.command.pay:
+    default: true
+  economyapi.command.seemoney:
+    default: true
+  economyapi.command.topmoney:
+    default: true
+  economyapi.command.takemoney:
+    default: op
+  economyapi.command.topbalance:
+    default: true
